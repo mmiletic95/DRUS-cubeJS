@@ -1,0 +1,27 @@
+{
+  "name": "cube-js",
+  "version": "1.0.0",
+  "description": "This is first project; Distributed control systems CUBE-js",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jasmine test/spec.js",
+     "build": "babel --presets es2015 -d lib/ scr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmiletic95/DRUS-cubeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmiletic95/DRUS-cubeJS/issues"
+  },
+  "homepage": "https://github.com/mmiletic95/DRUS-cubeJS#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
