@@ -7,8 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "jasmine test/spec.js",
-     "build": "babel --presets es2015 -d lib/ scr"
+    "test": "jasmine test/spec.js"
   },
   "repository": {
     "type": "git",

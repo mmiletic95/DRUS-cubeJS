@@ -1,5 +1,6 @@
 var firstTest= require('./../src/firstFunction');
-var simpleAdd=firstTest.simpleAdd();
+var simpleAdd=firstTest.simpleAdd;
+
 
 describe("Test first function", ()=>
 {
